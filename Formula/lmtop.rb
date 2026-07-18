@@ -2,28 +2,28 @@
 class Lmtop < Formula
   desc "Live terminal monitor for language-model usage, quotas, and subscription capacity"
   homepage "https://github.com/ewijaya/lmtop"
-  version "0.3.5"
+  version "0.3.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ewijaya/lmtop/releases/download/v0.3.5/lmtop-0.3.5-aarch64-apple-darwin.tar.gz"
-      sha256 "99c7c61bc5f0e0a782bdda372f6d022b4c5d753a119ec12599356105165231c3"
+      url "https://github.com/ewijaya/lmtop/releases/download/v0.3.7/lmtop-0.3.7-aarch64-apple-darwin.tar.gz"
+      sha256 "0e6eb237e3fd76bf0dce8ddb7158013f529566d5589de55db6f73a6b1cde1056"
     end
     on_intel do
-      url "https://github.com/ewijaya/lmtop/releases/download/v0.3.5/lmtop-0.3.5-x86_64-apple-darwin.tar.gz"
-      sha256 "bfaa6a4a2576d149479725017c079c3e5f4713216a2f79a80101dc1fa5908997"
+      url "https://github.com/ewijaya/lmtop/releases/download/v0.3.7/lmtop-0.3.7-x86_64-apple-darwin.tar.gz"
+      sha256 "a05db73166120cd55b9e7013a784a1a944c1a99fc2948c23b34870a9a59c0857"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ewijaya/lmtop/releases/download/v0.3.5/lmtop-0.3.5-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c55a25ee490b2d4c6d8722993ee9dda80a6ac51fd46caf1dd20f26758a0df8bc"
+      url "https://github.com/ewijaya/lmtop/releases/download/v0.3.7/lmtop-0.3.7-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "20da8d14bcb53713b5995f0458e9ad8d001882f8970308be8edbb3d15972851a"
     end
     on_intel do
-      url "https://github.com/ewijaya/lmtop/releases/download/v0.3.5/lmtop-0.3.5-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0cc12c8a7b0393e6f866e73cdb19ff6f53b301b0abea4f8d792b36584c5feca5"
+      url "https://github.com/ewijaya/lmtop/releases/download/v0.3.7/lmtop-0.3.7-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "27a37640a552613ac29f5370122c465d920b0e4d99737d2897fab00f7969e1cd"
     end
   end
 
